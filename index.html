@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consultar CEP</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1>Qual cep devo buscar ? 🤔</h1>
+        <form action="" id="get">
+          <div class="input-group">
+            <input
+              class="input"
+              type="text"
+              minlength="9"
+              maxlength="9"
+              placeholder="00000-000"
+            />
+            <button type="submit" class="button-submit">Consultar CEP</button>
+          </div>
+        </form>
+      </div>
+
+      <h2>Respostas 😀</h2>
+      <div id="result"></div>
+    </div>
+
+    <script src="Card.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
