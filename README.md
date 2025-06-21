@@ -2,7 +2,7 @@
 
 Um projeto web simples para buscar informações de um CEP usando **HTML, CSS e JavaScript**. O desafio principal foi integrar uma API de busca de CEP e criar um design bonito e intuitivo.  
 
-![Preview do Projeto](./screenshot.jpeg)  
+![Preview do Projeto](./public/screenshot.jpeg)  
 
 ## 🚀 Tecnologias Utilizadas  
 
